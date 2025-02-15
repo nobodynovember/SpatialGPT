@@ -4,8 +4,8 @@
 In this work, we propose SpatialGPT, a novel GPT-based VLN agent that introduces a Synchronize-Align-Backtrack reasoning chain. This approach enhances the agent’s ability to reason about progress, infer navigation directions, and plan active backtracking. Additionally, we introduce a Spatial Knowledge Graph that records observed landmark topology using spatial domain methods, enabling structured retrieval and controlled backtracking by recalling inferred alternative paths. Experimental results demonstrate that SpatialGPT achieves state-of-the-art zero-shot performance on the R2R benchmark.
 
 
- 
- ![SpatialGPT](figs/top_story2.png).
+ <img src="figs/top_story2.png" width="600">
+<!--  ![SpatialGPT](figs/top_story2.png). -->
 
 ## Installation
 1. Matterport3D installation instruction: [here](https://github.com/peteanderson80/Matterport3DSimulator). 
