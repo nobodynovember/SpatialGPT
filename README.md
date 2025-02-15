@@ -3,7 +3,7 @@
 
  Note: In compliance with ACL's Two-Way Anonymized Review requirement, this GitHub repository remains anonymized. All links provided below originate from public repositories of other researchers. Similarly, the standard data preparation and download links are sourced from public data servers maintained by other researchers. None of these links are associated with the identities of our authors.
  
- ![SpatialGPT](figs/top_story.jpg).
+ ![SpatialGPT](figs/top_story2.png).
 
 ## Installation
 1. Matterport3D installation instruction: [here](https://github.com/peteanderson80/Matterport3DSimulator). 
