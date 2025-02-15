@@ -330,7 +330,7 @@ class SpatialExpert:
         print('      Alternative Direction:', reason_result['backup_direction_list'])
         print('      Subsequent Path Plan:', reason_result['path_plan'])      
         if self.check_down_elevation==True and (self.current_instru_step in int_down_steps):
-            print('[GPT] Down-Elevation Spatial Alignment Inference-Selected Direction:'+ down_reason_result['selected_image'])
+            print('[GPT] Down-Elevation Spatial Alignment Inference-Selected Direction:', down_reason_result['selected_image'])
         matched_nodelist=[]
         down_matched_nodelist=[]
      
