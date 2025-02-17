@@ -18,7 +18,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 1. Follow the same data preparation procedure as [MapGPT](https://github.com/chen-judge/MapGPT?tab=readme-ov-file) to collect val-unseen set and observation images.
-2. After the above data preparation procedure, datasets directory is ready. Move the sampled subset (72 scenarios, 216 trajectories) file of SpatialGPT_72_scenes_processed.json from current directory to the `datasets/R2R/annotations` directory. 
+2. After the data preparation procedure, the datasets directory is ready. Move the sampled subset file, SpatialGPT_72_scenes_processed.json (72 scenarios, 216 trajectories), from the current directory to datasets/R2R/annotations/
 
 ## OpenAI API key
 Fill your API key in the file: GPT/api.py Line 12.
