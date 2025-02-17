@@ -1,4 +1,4 @@
-*Note: In compliance with ACL's Two-Way Anonymized Review requirement, this GitHub repository remains anonymized. All links provided below originate from public repositories of other researchers. Similarly, the experiment data preparation and download links are sourced from public data servers maintained by other researchers. None of these links are associated with the identities of our authors.*
+*Note: In compliance with ACL's Two-Way Anonymized Review requirement, this GitHub repository remains anonymized. All links provided below originate from public repositories of other VLN researchers. None of these links are associated with the identities of our authors.*
 
 # SpatialGPT
 In this work, we propose SpatialGPT, a novel GPT-based VLN agent that introduces a Synchronize-Align-Backtrack reasoning chain. This approach enhances the agent’s ability to reason about progress, infer navigation directions, and plan active backtracking. Additionally, we introduce a Spatial Knowledge Graph that records observed landmark topology using spatial domain methods, enabling structured retrieval and controlled backtracking by recalling inferred alternative paths. Experimental results demonstrate that SpatialGPT achieves state-of-the-art zero-shot performance on the R2R benchmark.
@@ -8,7 +8,7 @@ In this work, we propose SpatialGPT, a novel GPT-based VLN agent that introduces
 <!--  ![SpatialGPT](figs/top_story2.png). -->
 
 ## Installation
-1. Matterport3D installation instruction: [here](https://github.com/peteanderson80/Matterport3DSimulator). 
+1. Matterport3D installation instruction: [Matterport3D](https://github.com/peteanderson80/Matterport3DSimulator). 
 2. Install requirements:
 ```setup
 conda create -n SpatialGPT python=3.10
