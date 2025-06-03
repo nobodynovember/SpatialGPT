@@ -1,0 +1,9 @@
+openai==1.63.0
+tenacity==8.2.3
+networkx==3.2.1
+numpy==1.26.2
+h5py==3.12.1
+transformers==4.51.3
+torch==2.6.0
+pillow==11.2.1
+
