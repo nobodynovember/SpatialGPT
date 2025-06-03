@@ -23,7 +23,9 @@ pip install -r requirements.txt
 Fill in your API key at Line 12 of the file: GPT/api.py.
 
 ## Run SpatialGPT
- Ensure that the PYTHONPATH environment variable includes all necessary module directories (e.g., the project root) so that Python can locate internal packages like vln module.
+ Ensure that the PYTHONPATH environment variable includes all necessary module directories (e.g., the project root) so that Python can locate internal packages like vln module. 
+ 
+ Then run:
 ```bash
 bash scripts/gpt4o.sh
 ```
