@@ -22,10 +22,12 @@ pip install -r requirements.txt
 ## OpenAI API key
 Fill in your API key at Line 12 of the file: GPT/api.py.
 
+## Set the PYTHONPATH to Include the Project Directory.
+```bash
+export PYTHONPATH=$PYTHONPATH:/path/to/your/SpatialGPT
+```
+
 ## Run SpatialGPT
- Ensure that the PYTHONPATH environment variable includes all necessary module directories (e.g., the project root) so that Python can locate internal packages like vln module. 
- 
- Then run:
 ```bash
 bash scripts/gpt4o.sh
 ```
