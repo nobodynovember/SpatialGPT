@@ -3,7 +3,7 @@ In this work, we propose SpatialGPT, a novel GPT-based **Vision-and-Language Nav
 
 ## Key Features
 
-- **Synchronize-Align-Backtrack (SAB) Reasoning Chain**: A three-stage chain-of-thought paradigm to handle ambiguous or multi-step VLN instructions.
+- **Synchronize-Align-Backtrack (SAB) Reasoning Chain**: A three-stage chain-of-thought strategy to handle ambiguous or multi-step VLN spatial reasoning.
 - **Directional Connected Landmark List (DCLL) Local Memory**: Dynamically model local visual context using spatial domain knowledge as structured local spatial representation.
 - **Spatial Knowledge Graph (SKG) Global Memory**: Tracks objects, locations, and explored topology as structurad global spatial representation for memory-augmented reasoning.
 - **Zero-Shot Execution**: Built on GPT-4o without requiring task-specific training.
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 3. For the various-scenes set in experiment, once the above annotationss setting is complete, move the file SpatialGPT_72_scenes_processed.json from current directory to the 'datasets/R2R/annotations/' directory.
 
-## OpenAI API key
+## Set OpenAI API key
 Fill in your API key at Line 12 of the file: GPT/api.py.
 
 ## Run SpatialGPT
